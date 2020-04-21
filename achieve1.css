@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background: url(achieve.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  background-width:100%;
+  background-height:100%;
+}
+
+.tm-header::after{
+  content: " ";
+  clear: both;
+  display: block;
+  visibility: none;
+
+}
+
+.tm-nav{
+  height: 80px;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+}
+
+.tm-nav ul{
+  float:right;
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+.tm-nav ul li{
+  list-style: none;
+  margin:0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+
+.tm-nav ul li a{
+  padding: 15px 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  line-height: 45px;
+  transition: .4s;
+}
+.tm-nav .active{
+  background-color: #cc6600;
+}
+.tm-nav ul li a:hover{
+  background: #00ff00;
+  border-radius: 4px;
+}
+
+.tm-logo{
+  float:left;
+    margin-left: 30px;
+    font-size: 45px;
+    margin-top: 10px;
+  }
+
+     
+/*.para{
+  margin-left: 18px;
+  margin-top: 30px;
+  padding-top:25px;
+  font-size: 38px;
+  font-family: 'Roboto Slab', serif;
+  padding-bottom: 450px;
+
+
+}
+*/
+.para{
+  margin-left: 20px;
+  padding: 30px;
+  font-size: 40px;
+  font-weight: bold;padding-bottom: 400px;
+  font-family: 'Lobster Two', cursive;
+}
+
+
+
+
+.head{
+  margin-left: 18px;
+  margin-top: 20px;
+  font-size: 49px;
+  font-family: 'Girassol', cursive;
+}
+.final{
+  margin-left: 30px;
+  padding-top: 50px;
+  font-weight: bolder;
+  font-size: 60px;
+  margin-bottom: 100px;
+  font-family: 'Playball', cursive;
+
+
+}
+
+
+
+
+
+
+
+     .tm-footer{
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  height: 100px;
+  margin-top: 0px;
+
+  }
